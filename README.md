@@ -35,15 +35,24 @@ Execute the following command:
 
 **Code Structure:**
 1.** Data Loading and Preprocessing: **
-  a. Reads and Cleans the dataset. 
-  b. Calculates crime rates per 1,000 population for better analysis. 
 
-2. **Tabs and Features: ** 
+  a. Reads and Cleans the dataset. 
+  
+  b. Calculates crime rates per 1,000 population for better analysis. 
+  
+
+2. **Tabs and Features: **
+   
   a. **City Analysis:** Shows city-specific crime statistics.
+  
   b.** Heatmap:** Crime category correlation heatmap.
+  
   c. **City Comparison: ** Comares crime rates between two cities.
+  
   d. **Interactive Map:** Shows crime hotspots geographically.
+  
   e. **Prediction & Clustering: **
+  
     i. Uses linear regression to predict future rates of violent crime. 
     ii. Uses KMeans to group cities according to crime rates.
 
@@ -59,37 +68,57 @@ Matplotlib, Seaborn, Plotly, and Folium are used for creating interactive and st
 
 **Functionalities and Test Results: **
 1. **Functionalities:**
+   
   a.** City Analysis:**
+  
     i. Allows users to select a city and browse comprehensive crime statistics for a chosen city.
     ii. Verified by showing precise data for a few chosen cities.
+    
   b. **Heatmap:** 
+  
     i. Produces a crime category correlation heatmap.
     ii. Verification: Correlations match patterns in the data.
+    
   c. **City Comparison: **
+  
     i. Examines the rates of property and violent crime in two different cities.
     ii. Verification: City data is appropriately reflected in the graphs.
+    
   d. **Interactive Map: **
+  
     i. Displays crime hotspots based on geographical data.
     ii. Verification: The markers match the latitude and longitude of the dataset.
+    
   e. **Prediction & Clustering: **
+  
     i. Uses linear regression to forecast rates of violent crime.
     ii. Divides cities into groups according to trends in crime.
    iii. Verification: Clusters offer insightful groupings, and predictions match data trends.
 
-2. **Testing Results: **
+
+3. **Testing Results: **
+   
 The application was tested using Pennsylvania crime data. Below are sample results:
   *Correlation between violent and property crime: 0.85 (highly correlated).
   *Cities grouped into three clusters effectively distinguished high-crime and low-crime areas.
 
+
 **Showcasing the Achievement of Project Goals:**
 Sample Execution Results:
+
 1.** City Analysis:**
   *Selected City: Pittsburgh
   *Displayed Data: Violent Crime - 4,123; Property Crime - 12,345.
+
+  
 2. **Heatmap:**
   *Strong correlation observed between burglary and property crime rates.
-3. **Prediction:**
+
+   
+4. **Prediction:**
   *Predicted Violent Crime Rate for a population of 500,000: 45 per 1,000.
+
+
 4.** Clustering:**
 *Cluster 0: Low crime cities.
 *Cluster 1: Moderate crime cities.
