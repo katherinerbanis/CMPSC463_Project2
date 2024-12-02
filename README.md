@@ -61,7 +61,9 @@ Matplotlib, Seaborn, Plotly, and Folium are used for creating interactive and st
 
 
 
-*******flowchart to be added 
+**Flowchart**
+
+![Untitled_Artwork](https://github.com/user-attachments/assets/1c76a42c-b0f1-43cc-8f8f-3b2dc8f7e428)
 
 
 
