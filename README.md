@@ -1,14 +1,19 @@
 # CMPSC463_Project2
 
-**Project Goals: **
+**Project Goals:**
+
 The goal of this project is to develop an interactive, accessible application that makes criminal analysis and visualization easier. The application seeks to predict future crime trends, uncover correlations, give insights into crime patterns, and facilitate data-driven decision-making for legislators and law enforcement by utilizing data science methodologies.
 
 **Significance of the Project:**
+
 Worldwide, crime is still a major problem that calls for creative approaches to research and prevention. The following significant issues are addressed by this project:
 
 1. **Data-Driven Insights:** By examining crime data, the tool finds trends and connections that provide important information about the causes of crime.
+   
 2. **User Engagement:** To promote an easy-to-use user experience, the software includes interactive capabilities for comparing cities, viewing crime hotspots, and visualizing predictions.
+   
 3. **Prediction and Clustering:** To help with resource allocation and strategic planning, the application uses machine learning algorithms to anticipate future crime patterns and group cities into clusters according to their crime rates.
+   
 4. **Interactive Mapping:** A distinctive, spatially focused analysis is produced by combining interactive maps with geographic data.
 
 This project is unique since it integrates interactive visualization, clustering, and predictive analytics into a single, coherent application.
