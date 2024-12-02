@@ -129,15 +129,19 @@ Sample Execution Results:
 **Discussion and Conclusion:** 
 **Challenges:**
 Data inconsistency: Preprocessing was necessary for missing or insufficient data.
+
 Map visualization: Performance lags occurred when handling big datasets on interactive maps.
 
 **Restrictions:**
 Predictions may not take into consideration outside variables like changes in policy because they are based on a small number of features.
+
 Although clustering assumes three groups, the amount of the dataset may require modification.
 
 **Course Learning Application:**
 Algorithms: Implemented Linear Regression and KMeans algorithms.
+
 Visualization: Applied concepts of data visualization using Matplotlib and Seaborn.
+
 Programming: Developed modular, object-oriented code using Python.
 
 
