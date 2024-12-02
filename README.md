@@ -18,6 +18,7 @@ Worldwide, crime is still a major problem that calls for creative approaches to 
 
 This project is unique since it integrates interactive visualization, clustering, and predictive analytics into a single, coherent application.
 
+
 **Installation and Usage Instructions:**
 1. **Prerequisites:**
 Install Python (version 3.8 or higher).
@@ -25,10 +26,12 @@ Install Python (version 3.8 or higher).
 Install required libraries using the following command:
  pip install pandas matplotlib seaborn sklearn plotly folium tkintermapview
 
+
 2. **Dataset: ** Place the crime dataset file (pa_crime_data.xls) in the project directory.
 3. **Running the Application:**
 Execute the following command:
   python crime_analysis_app.py
+
 
 **Code Structure:**
 1.** Data Loading and Preprocessing: **
